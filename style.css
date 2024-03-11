@@ -1,0 +1,108 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none; color: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about_text {
+  text-align: center;
+}
+
+.about_text span{
+  font-size: x-large;
+  font-weight: 700;
+  color:lightgreen;
+}
+
+.con {
+  height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: aliceblue;
+}
+
+.con h2 {
+  font-size: 50px;
+}
+
+header {
+  background: #191919; 
+  padding: 20px 30px; 
+  color:azure;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  position: fixed; 
+  top: 60px; 
+  width: 90%; 
+  z-index: 10; 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 50px; 
+  font-size: bold;
+}
+
+#about {
+  position: relative; 
+  overflow: hidden;
+}
+
+#about img {
+  position:absolute; 
+  z-index: -1; 
+  top: 0;
+}
+
+#about h2 {
+  font-size: 80px;
+}
+
+#about h2:before {
+  content: ''; 
+  position: absolute; 
+  width: 50px; 
+  height: 10px; 
+  left: 5dvh; 
+  top: 20px;
+  transform: translateX(-4px);
+}
+      
+#pro1 {
+  background-color:dimgrey; 
+  background-attachment: fixed;
+}
+      
+#pro2 {
+  background-color:darkolivegreen; 
+  background-attachment: fixed;
+}
+      
+#pro3 {
+  background-color: peru; 
+  background-attachment: fixed;
+}
